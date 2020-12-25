@@ -7,8 +7,10 @@
 
     <!-- Boootstrap v4.5 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <!-- Google Font: lobster - cabin (Regular 400, 600) -->
-
+    <!-- Google Font: major mono - barow - Caveat-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,600;1,300&family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
     <!-- icons -->
     <script src="https://kit.fontawesome.com/40724a6ca2.js" crossorigin="anonymous"></script>
     <!-- mi estilo -->
@@ -18,7 +20,7 @@
   <body>
 
   <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#"><span class="logo">Vale Correa</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,9 +38,11 @@
     </nav>
 
     <!-- hero section -->
-    <header class="container-fluid hero text-right pt-5 mt-5">
+    <header class="container-fluid hero text-right text-info pt-5 mt-5">
       <div class="container">
-        <h1 class="display-1 font-weight-bold my-3">Yo soy V.Correa</h1>
+        <h4>¡Hola!</h4>
+        <h1 class="display-1 font-weight-bold">Yo soy V.Correa</h1>
+        <h3>Desarrolladora Front-End</h3>
         <a class="btn btn-lg btn-outline-warning mr-3" href="#work">Trabajos</a>
         <a class="btn btn-lg btn-warning" href="#contact">Contacto</a>
       </div>
@@ -47,7 +51,7 @@
 
 
     <!-- seccion sobre mi -->
-    <section id="about" class="container bg-info my-4 py-3">
+    <section id="about" class="container d-none d-md-block bg-dark my-4 py-3">
       <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h2>
       <article class="row border-bottom border-secondary py-3">
         <div class="col-12 col-sm-12 col-md-6">
@@ -90,14 +94,14 @@
 
 
     <!-- seccion cards -->
-    <article id="work" class="container bg-info p-5">
+    <article id="work" class="container bg-dark text-white p-5">
       <h2>Mis Ultimos Trabajos</h2>
         <section class="row">
             <!--carta 1-->
             <div class=" my-3 col-12 col-sm-12 col-md-6 col-lg-4">
                 <div class="card">
                     <img src="assets/img/meet_coffee.png" class="card-img-top img-fluid" alt="pagina meet_coffee">
-                    <div class="card-body">
+                    <div class="card-body bg-dark">
                         <h4 class="card-title">Meet & Coffee</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
@@ -107,9 +111,9 @@
             <!--carta 2-->
             <div class=" my-3 col-12 col-sm-12 col-md-6 col-lg-4">
                 <div class="card">
-                    <img src="assets/img/meet_coffee.png" class="card-img-top img-fluid" alt="pagina meet_coffee">
-                    <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
+                    <img src="assets/img/iguana_page.png" class="card-img-top img-fluid" alt="pagina de iguana">
+                    <div class="card-body bg-dark">
+                        <h4 class="card-title">Iguana Page</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
                     </div>
@@ -118,9 +122,9 @@
              <!--carta 3-->
              <div class=" my-3 col-12 col-sm-12 col-md-6 col-lg-4">
                  <div class="card">
-                     <img src="assets/img/meet_coffee.png" class="card-img-top img-fluid" alt="pagina meet_coffee">
-                    <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
+                     <img src="assets/img/suricata.png" class="card-img-top img-fluid" alt="pagina suricata">
+                    <div class="card-body bg-transparent">
+                        <h4 class="card-title">Suricata</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
                     </div>
@@ -129,9 +133,9 @@
              <!--carta 4-->
              <div class=" my-3 col-12 col-sm-12 col-md-6 col-lg-4">
                  <div class="card">
-                     <img src="assets/img/meet_coffee.png" class="card-img-top img-fluid" alt="pagina meet_coffee">
+                     <img src="assets/img/cuppon.png" class="card-img-top img-fluid" alt="pagina cuppon">
                     <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
+                        <h4 class="card-title">Cuppon</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
                     </div>
@@ -140,9 +144,9 @@
              <!--carta 5-->
              <div class=" my-3 col-12 col-sm-12 col-md-6 col-lg-4">
                  <div class="card">
-                     <img src="assets/img/meet_coffee.png" class="card-img-top img-fluid" alt="pagina meet_coffee">
+                     <img src="assets/img/ricomida.png" class="card-img-top img-fluid" alt="pagina ricomida">
                     <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
+                        <h4 class="card-title">Ricomida</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
                     </div>
@@ -151,7 +155,7 @@
              <!--carta 6-->
              <div class=" my-3 col-12 col-sm-12 col-md-6 col-lg-4">
                  <div class="card">
-                     <img src="assets/img/meet_coffee.png" class="card-img-top img-fluid" alt="pagina meet_coffee">
+                     <img src="assets/img/dmark.png" class="card-img-top img-fluid" alt="pagina dmark">
                     <div class="card-body">
                         <h4 class="card-title">Card title</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
@@ -165,9 +169,9 @@
 
 
     <!-- seccion FORM contact -->
-    <section id="contact" class="seccion_newsletter container-fluid bg-danger font-weight-bold text-center text-white p-5">
+    <section id="contact" class="container-fluid bg-secondary font-weight-bold text-center text-white p-5">
       <h2>CONTACTAME</h2>
-      <h3 class="mx-4">y obtén las mejores recetas que tenemos en <span>Ricomida</span> </h3>
+      <h3 class="mx-4">¿Quieres conocer mas de mi? <span>lalalalaala</span> </h3>
 
 
 
@@ -175,17 +179,17 @@
 
 
     <!-- seccion footer -->
-    <footer class="bg-warning py-5">
+    <footer class="bg-dark py-5">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-            <h2 class="text-white font-weight-bold">Vale vale vale Correa</h2>
+          <div class="col-12 col-sm-12 col-md-8 col-lg-8 text-white">
+              <a href="https://github.com" target="_blank"><i class="fab fa-github-square fa-3x ml-4" data-toggle="tooltip" data-placement="bottom" title="GitHub"></i></a>
+              <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin fa-3x ml-4" data-toggle="tooltip" data-placement="top" title="LinkedIn"></i></a>
+              <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram fa-3x ml-4" data-toggle="tooltip" data-placement="bottom" title="Instagram"></i></a>
+              <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square fa-3x ml-4" data-toggle="tooltip" data-placement="top" title="Facebook"></i></a>
           </div>
-          <div class="col-12 col-sm-12 col-md-8 col-lg-8 text-info text-right">
-              <i class="fab fa-github-square fa-4x ml-4"></i>
-              <i class="fab fa-instagram fa-4x ml-4"></i>
-              <i class="fab fa-linkedin fa-4x ml-4"></i>
-              <i class="fab fa-facebook-square fa-4x ml-4"></i>
+          <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+            <h2 class="logo">Vale Correa</h2>
           </div>
         </div>
       </div>

@@ -1,5 +1,15 @@
 body{
-  font-family: sans-serif;
+  font-family: Barlow Semi Condensed, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #0A2229;
+}
+h2{
+  font-family: Caveat;
+}
+
+
+.logo{
+  font-family: Major Mono Display, monospace;
+  font-size: 2em;
 }
