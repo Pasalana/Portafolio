@@ -6,10 +6,27 @@ body{
 }
 h2{
   font-family: Caveat;
+  text-align: center;
+  font-size: 4em;
 }
-
 
 .logo{
   font-family: Major Mono Display, monospace;
   font-size: 2em;
+}
+
+header{
+  background-image: url(../img/celcopia.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  padding-bottom: 20rem;
+}
+
+.card{
+   background-color: #0B2F3A;
+   color: #848484;
+}
+.fab {
+  color: #ffffff;
 }
