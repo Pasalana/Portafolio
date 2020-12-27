@@ -1,11 +1,11 @@
 body{
-  font-family: Barlow Semi Condensed, sans-serif;
+  font-family: Thasadith, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #0A2229;
 }
 h2{
-  font-family: Caveat;
+  font-family: Reenie Beanie;
   text-align: center;
   font-size: 4em;
 }
@@ -29,4 +29,7 @@ header{
 }
 .fab {
   color: #ffffff;
+}
+footer{
+  background-color: #19070B;
 }
