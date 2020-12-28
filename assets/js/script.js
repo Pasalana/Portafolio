@@ -12,5 +12,10 @@ $(function () {
       }  // Fin del if
     });
 
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+
+
 
 });

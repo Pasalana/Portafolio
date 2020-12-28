@@ -16,20 +16,49 @@ h2{
 }
 
 header{
-  background-image: url(../img/celcopia.png);
+  background-image: url(../img/color2.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: left;
-  padding-bottom: 20rem;
+  background-position: center;
+  text-shadow: 0.150em 0.20em 2em #000000;
+  padding-bottom :  10rem ;
+  position: relative;
+  font-weight: 700;
+  font-weight: bold;
+
+}
+
+header h3{
+  font-size: 3em;
+}
+
+
+
+.carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.carousel-indicators{
+    top: 110%;
+}
+
+.carousel-item img{
+  height: 100%;
+  width: 100%;
 }
 
 .card{
    background-color: #0B2F3A;
    color: #848484;
 }
+
+
 .fab {
   color: #ffffff;
 }
 footer{
-  background-color: #19070B;
+  background-color: #633A3A;
+  color: #6A4A4A;
 }

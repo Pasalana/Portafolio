@@ -20,7 +20,7 @@
   <body>
 
   <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+    <nav class="navbar navbar-expand-lg font-weight-bold navbar-dark bg-transparent fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#"><span class="logo">Vale CorreA</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,64 +38,195 @@
     </nav>
 
     <!-- hero section -->
-    <header class="container-fluid hero text-right text-info pt-5 mt-5">
-      <div class="container">
-        <h4>¡Hola!</h4>
-        <h1 class="display-1 font-weight-bold">Yo soy V.Correa</h1>
-        <h3>Desarrolladora Front-End</h3>
-        <a class="btn btn-lg btn-outline-warning mr-3" href="#work">Trabajos</a>
-        <a class="btn btn-lg btn-warning" href="#contact">Contacto</a>
+    <header class="container-fluid hero text-right text-white pt-5 mt-5">
+      <div class="container my-5 py-5">
+        <h3 class="mt-5 font-weight-bold">¡Hola!</h3>
+        <h1 class="display-1 font-weight-bold my-5">Yo soy Valeska Correa L.</h1>
+        <h3 class="subtitulo font-weight-bold mb-5">Desarrolladora Front-End</h3>
+        <a class="btn btn-lg btn-outline-warning mr-3 mb-5" href="#work">Trabajos</a>
+        <a class="btn btn-lg btn-warning mb-5" href="#contact">Contacto</a>
       </div>
     </header>
 
 
 
     <!-- seccion sobre mi -->
-    <section id="about" class="container d-none d-md-block bg-dark my-4 py-3">
-      <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h2>
+    <section id="about" class="container d-none d-md-block text-secondary mt-4 pt-5">
+      <h2 class="my-4">Acerca de mí</h2>
+      <h4 class="text-center mb-5">Considero que una experiencia de vida fundamental es la construcción del carácter. Confiar en muestra mente y fortalecer nuestras habilidades, esto va desde el convivir con diferentes culturas, ya sea viajando y/o desempeñándonos en areas nuevas laborales, desafiándote a ti misma en situaciones desconocidas e inesperadas. Situaciones que te llevan a conocer nuevos escenarios y personas que aportan en un constante crecimiento personal.</h4>
       <article class="row border-bottom border-secondary py-3">
         <div class="col-12 col-sm-12 col-md-6">
-          <h4 class="font-weight-bold d-inline-block mb-5">laboral</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <h4 class="font-weight-bold d-inline-block mb-4">Desarrollo Laboral</h4>
+          <p>Tras años de experiencia en diversas areas he tomado la decisión de reorientar mi carrera profesional con el ánimo de continuar aprendiendo y, también, aportar con toda mi experiencia adquirida. Considero que el cambio es un signo de capacidad de superación y, por ello, creo que siempre sería capaz de aportar valor en la empresa en la que me encuentre. Me considero alguien que trabaja duro y presta atención al detalle. Soy flexible y rápida para adquirir nuevas aptitudes, aprender de los demás aportando con nuevas ideas y entusiasmo para desarrollar un trabajo colaborativo, con una actitud amable y empática.</p>
         </div>
         <div class="col-12 col-sm-12 col-md-6">
-          <h4 class="d-inline-block mb-5">academica</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <h4 class="font-weight-bold d-inline-block mb-4">Desarrollo Personal</h4>
+          <p>Formada como gestora cultural he adquirido practica en ambientes de oficina, manejo de personal, en area retail, organización de eventos y en el sector de servicio publico, lo que me ha entregado habilidades y capacidades para trabajar con diferentes tipos de personas y ambientes, manteniendo mis valores con un carácter motivado y resolutivo. Autodidacta en variados campos también he realizado cursos en artes y ademas cuento con un diplomado de Filosofía y Estética.</p>
         </div>
       </article>
     </section>
 
 
+    <!-- carrusel -->
+    <div class="container border-bottom text-secondary border-secondary mb-4 p-5">
+      <div class="row">
+        <div class="col-4 text-left">
+          <h3 class="font-weight-bold border-bottom border-danger">Mi Catalogo 2015:</h3>
+        </div>
+        <div class="col-8 bg-dark rounded p-3">
+
+          <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#blogCarousel" data-slide-to="0" class="active" ></li>
+              <li data-target="#blogCarousel" data-slide-to="1" ></li>
+              <li data-target="#blogCarousel" data-slide-to="2" ></li>
+            </ol>
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-3">
+                    <img src="assets/img/cat1.png" class="img-fluid" alt="portada">
+                  </div>
+                  <div class="col-3">
+                    <img src="assets/img/cat2.png" class="img-fluid" alt="contraportada">
+                  </div>
+                  <div class="col-3">
+                    <img src="assets/img/cat3.png" class="img-fluid" alt="acuarela1">
+                  </div>
+                  <div class="col-3">
+                    <img src="assets/img/cat4.png" class="img-fluid" alt="acuarela2">
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-3">
+                    <img src="assets/img/cat5.png" class="img-fluid" alt="acuerela diente">
+                  </div>
+                  <div class="col-3">
+                    <img src="assets/img/cat6.png" class="img-fluid" alt="acuerela carreta">
+                  </div>
+                  <div class="col-3">
+                    <img src="assets/img/cat7.png" class="img-fluid" alt="acuarelas 3">
+                  </div>
+                  <div class="col-3">
+                    <img src="assets/img/cat8.png" class="img-fluid" alt="mixta">
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-3">
+                    <img src="assets/img/cat9.png" class="img-fluid" alt="acuerela estacion">
+                  </div>
+                  <div class="col-3">
+                    <img src="assets/img/cat10.png" class="img-fluid" alt="acuerelas 2">
+                  </div>
+                  <div class="col-3">
+                    <img src="assets/img/cat11.png" class="img-fluid" alt="tinta">
+                  </div>
+                  <div class="col-3">
+                    <img src="assets/img/cat12.png" class="img-fluid" alt="acrilico">
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
 
     <!-- seccion experiencia-->
-    <section id="experience" class="container bg-secondary text-center my-5">
+    <section id="experience" class="container-fluid bg-secondary text-center p-5">
         <h2 class="my-4">Mi Experiencia</h2>
-        <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus. Nunc at enim et lacus porttitor tincidunt. Donec imperdiet augue nec aliquet sagittis.</p>
+        <h4 class="my-4 mx-5">Hasta ahora mi experiencia e intereses ha variado y se ha extendido en campos diversos. Personalmente creo que un desarrollo personal es intrínseco al desarrollo profesional, el cultivo de habilidades blandas debe ser continuo para mantener una mente sana en un mundo caótico.</h4>
 
-        <div class="row">
+        <div class="row mx-5">
           <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-            <i class="fas fa-camera fa-3x my-3"></i>
-            <h3 class="my-3">Fotógrafa de comida</h3>
-            <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus.</p>
+            <i class="fas fa-palette fa-3x my-3"></i>
+            <h3 class="my-3">Artes y oficios</h3>
+            <p class="my-3">Soy creativa y vivo en una constante de encontrar mi propia expresión mediante las artes visuales, continuamente pruebo nuevas técnicas de expresión que reten mis habilidades.</p>
+            <button type="button" class="btn btn-outline-info mb-5" data-toggle="modal" data-target="#artes" >Ver más</button>
           </div>
           <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-            <i class="fas fa-bullhorn fa-3x my-3"></i>
-            <h3 class="my-3">Crítica culinaria</h3>
-            <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus.</p>
+            <i class="fas fa-user-edit fa-3x my-3"></i>
+            <h3 class="my-3">Gestora Cultural</h3>
+            <p class="my-3">Mi principal experiencia es trabajando en la Corporación Cultural de Peñalolén como encargada de area, también he participado en la gestión de proyectos relacionados a las artes visuales.</p>
+            <button type="button" class="btn btn-outline-info mb-5" data-toggle="modal" data-target="#gestion" >Ver más</button>
           </div>
           <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-            <i class="far fa-map fa-3x my-3"></i>
-            <h3 class="my-3">Bloggera de viajes</h3>
-            <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus.</p>
+            <i class="fas fa-chalkboard-teacher fa-3x my-3"></i>
+            <h3 class="my-3">Examinadora</h3>
+            <p class="my-3">Durante los últimos años he participado como examinadora en el proceso de evaluación anual de la Prueba Simce en establecimientos educacionales (escolares) y Prueba ECEP (pedagogos).</p>
+            <button type="button" class="btn btn-outline-info mb-5" data-toggle="modal" data-target="#simce" >Ver más</button>
           </div>
         </div>
     </section>
 
 
+    <!-- modal artes-->
+    <div  class = "modal fade"  id= "artes"  tabindex= "-1"  role= "dialog" aria-labelledby= "exampleModalLabel"  aria-hidden= "true" >
+      <div  class= "modal-dialog"  role= "document">
+        <div  class= "modal-content" >
+          <div  class= "modal-header" >
+            <h5  class= "modal-title"  id= "exampleModalLabel" >Artes</h5>
+            <button  type= "button"  class= "close"  data-dismiss= "modal" aria-label= "Close" >
+              <span  aria-hidden= "true" >&times;</span >
+            </button >
+          </div >
+          <div  class= "modal-body">
+            <img src="assets/img/zorro5.png" class="img-fluid my-3" alt="foto tejido">
+            <p>Experimentando con la tecnica del tejido. <br>Amigurumi de Zorro. 13cm.</p>
+          </div >
+        </div >
+      </div >
+    </div>
+    <!-- modal gestion-->
+    <div  class = "modal fade"  id= "gestion"  tabindex= "-1"  role= "dialog" aria-labelledby= "exampleModalLabel"  aria-hidden= "true" >
+      <div  class= "modal-dialog"  role= "document">
+        <div  class= "modal-content" >
+          <div  class= "modal-header" >
+            <h5  class= "modal-title"  id= "exampleModalLabel" >Gestión Cultural</h5>
+            <button  type= "button"  class= "close"  data-dismiss= "modal" aria-label= "Close" >
+              <span  aria-hidden= "true" >&times;</span >
+            </button >
+          </div >
+          <div  class= "modal-body">
+            <img src="assets/img/stgo-visual.png" class="img-fluid my-3" alt="foto proyecto">
+            <p>Coordinadora de una de las 5 comunas participantes en proyecto "Santiago Visual" <br>Exposición final, Centro Montecarmelo.</p>
+          </div >
+        </div >
+      </div >
+    </div>
+    <!-- modal simce-->
+    <div  class = "modal fade"  id= "simce"  tabindex= "-1"  role= "dialog" aria-labelledby= "exampleModalLabel"  aria-hidden= "true" >
+      <div  class= "modal-dialog"  role= "document">
+        <div  class= "modal-content" >
+          <div  class= "modal-header" >
+            <h5  class= "modal-title"  id= "exampleModalLabel" >Examinadora para Pruebas Nacionales</h5>
+            <button  type= "button"  class= "close"  data-dismiss= "modal" aria-label= "Close" >
+              <span  aria-hidden= "true" >&times;</span >
+            </button >
+          </div >
+          <div  class= "modal-body">
+            <img src="assets/img/prueba.jpg" class="img-fluid my-3" alt="foto colegio">
+            <p>Examinadora para prueba en alumnos de educación basica y media <br>Simce 2018</p>
+          </div >
+        </div >
+      </div >
+    </div>
+
+
 
     <!-- seccion cards -->
-    <article id="work" class="container bg-dark text-white p-5">
-      <h2>Mis Ultimos Trabajos</h2>
+    <article id="work" class="container border-bottom border-success bg-dark text-white mt-5 p-5">
+      <h2 class="my-4 text-secondary">Mis Ultimos Trabajos</h2>
         <section class="row">
             <!--carta 1-->
             <div class=" my-3 col-12 col-sm-12 col-md-6 col-lg-4">
@@ -163,12 +294,13 @@
 
 
     <!-- seccion FORM contact -->
-    <section id="contact" class="bg-secondary text-center text-white p-5">
-      <h2>Contáctame</h2>
-      <h3 class="mb-4">¿Quieres conocer más de mí? <span>lalalalaala</span> </h3>
+    <section id="contact" class="text-center text-secondary p-4 my-4">
+      <h2 class="my-4">Contáctame</h2>
+      <h3 class="my-4">¿Quieres conocer más de mí?</h3>
+      <div class="container">
+        <div class="typeform-widget" data-url="https://form.typeform.com/to/rxd7qfij?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
 
-      <div class="typeform-widget" data-url="https://form.typeform.com/to/rxd7qfij?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
-
+      </div>
     </section>
 
 
